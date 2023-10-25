@@ -33,7 +33,7 @@ metphicorr_x_2022C = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-
 metphicorr_x_2022D = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.024782556389225573, 0.3124258311274861])
 metphicorr_x_2022E = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.023365501743318112, 0.16512637085215365])
 metphicorr_x_2022F = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.02963723119039856, 0.3651770068990192])
-metphicorr_x_2022F = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.018934076357252076, 0.6567964602889391])
+metphicorr_x_2022G = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.018934076357252076, 0.6567964602889391])
 
 ## y component parameters ##
 
@@ -65,7 +65,7 @@ metphicorr_y_2022C = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-
 metphicorr_y_2022D = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.06388650218535215, -0.15596543984177458])
 metphicorr_y_2022E = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.05132197227502938, 0.06940200548340325])
 metphicorr_y_2022F = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.06930780993055984, 0.06041592719059796])
-metphicorr_y_2022F = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.04860184714111235, -0.2193388863252732])
+metphicorr_y_2022G = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.04860184714111235, -0.2193388863252732])
 
 no_correction = cs.FormulaRef(nodetype="formularef", index=1, parameters=[1.0])
 
@@ -74,12 +74,14 @@ edges["2016pre"] = [0, 272007, 275377, 275657, 276284, 276315, 276812, 276831, 2
 edges["2016post"] = [0, 278769, 278770, 278771, 278801, 278809, 278820, 280386, 280919, 284045]
 edges["2017"] = [0, 297020, 299330, 299337, 302030, 303435, 304827, 304911, 306463]
 edges["2018"] = [0, 315252, 316996, 316998, 319313, 320394, 325274]
+edges["2022"] = [0, 355862, 357482, 357538, 357900, 359022, 360331, 360390, 362167, 362433, 362760]
 
 metphicorrs = {}
 metphicorrs["2016pre"] = {}
 metphicorrs["2016post"] = {}
 metphicorrs["2017"] = {}
 metphicorrs["2018"] = {}
+metphicorrs["2022"] = {}
 metphicorrs["2016pre"]["x"] = [
     no_correction,
     metphicorr_x_2016B,
@@ -123,6 +125,18 @@ metphicorrs["2018"]["x"] = [
     metphicorr_x_2018C,
     metphicorr_x_2018D,
 ]
+metphicorrs["2022"]["x"] = [
+    no_correction,
+    metphicorr_x_2022C,
+    no_correction,
+    metphicorr_x_2022D,
+    no_correction,
+    metphicorr_x_2022E,
+    no_correction,
+    metphicorr_x_2022F,
+    no_correction,
+    metphicorr_x_2022G,
+]
 metphicorrs["2016pre"]["y"] = [
     no_correction,
     metphicorr_y_2016B,
@@ -165,6 +179,18 @@ metphicorrs["2018"]["y"] = [
     metphicorr_y_2018B,
     metphicorr_y_2018C,
     metphicorr_y_2018D,
+]
+metphicorrs["2022"]["y"] = [
+    no_correction,
+    metphicorr_y_2022C,
+    no_correction,
+    metphicorr_y_2022D,
+    no_correction,
+    metphicorr_y_2022E,
+    no_correction,
+    metphicorr_y_2022F,
+    no_correction,
+    metphicorr_y_2022G,
 ]
 
 for era in metphicorrs.keys():
