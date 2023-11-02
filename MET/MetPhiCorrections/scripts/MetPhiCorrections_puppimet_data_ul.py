@@ -28,10 +28,11 @@ metphicorr_x_2018B = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0
 metphicorr_x_2018C = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0.00198311, 0.37026])
 metphicorr_x_2018D = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0.00220647, 0.378141])
 
-# 2022 CDE rereco and FG promptreco
-metphicorr_x_2022C = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.02343353907997924, 0.22983049326023777])
-metphicorr_x_2022D = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.024782556389225573, 0.3124258311274861])
-metphicorr_x_2022E = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.023365501743318112, 0.16512637085215365])
+# 2022
+metphicorr_x_2022B = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.035510012241656536, 0.15359836621511846])
+metphicorr_x_2022C = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.017075856511075144, -0.0022363979244479915])
+metphicorr_x_2022D = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.02023203597452616, 0.16188702387578738])
+metphicorr_x_2022E = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.022469392433645888, 0.11681738874719216])
 metphicorr_x_2022F = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.02963723119039856, 0.3651770068990192])
 metphicorr_x_2022G = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.018934076357252076, 0.6567964602889391])
 
@@ -61,9 +62,10 @@ metphicorr_y_2018C = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-
 metphicorr_y_2018D = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.0160244, 0.471053])
 
 # 2022 CDE rereco and FG promptreco
-metphicorr_y_2022C = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.0512023304132463, -0.3285138764759885])
-metphicorr_y_2022D = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.06388650218535215, -0.15596543984177458])
-metphicorr_y_2022E = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.05132197227502938, 0.06940200548340325])
+metphicorr_y_2022B = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.030265183851530583, -0.5342925706196769])
+metphicorr_y_2022C = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.060214783365267935, -0.19626351438879464])
+metphicorr_y_2022D = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.06407080389327116, -0.0940230344031796])
+metphicorr_y_2022E = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.05627272445842817, 0.19495771371689818])
 metphicorr_y_2022F = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.06930780993055984, 0.06041592719059796])
 metphicorr_y_2022G = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.04860184714111235, -0.2193388863252732])
 
