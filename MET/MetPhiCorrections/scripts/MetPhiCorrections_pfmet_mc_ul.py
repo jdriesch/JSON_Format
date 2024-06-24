@@ -24,9 +24,11 @@ metphicorrs["2018"]["x"] = cs.FormulaRef(nodetype="formularef", index=0, paramet
 
 # 2022
 metphicorrs["2022"]["x"] = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.01772689514798973, 0.04753174170384164])
-
-# 2022EE
 metphicorrs["2022EE"]["x"] = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.02642415422343397, -0.020232141962834738])
+
+# 2022
+metphicorrs["2023"]["x"] = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0.10088891788829228, -0.7475659408557478])
+metphicorrs["2023BPix"]["x"] = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0.2082519883008424, -1.4097156316653972])
 
 ## y component parameters ##
 
@@ -43,6 +45,10 @@ metphicorrs["2018"]["y"] = cs.FormulaRef(nodetype="formularef", index=0, paramet
 # 2022
 metphicorrs["2022"]["y"] = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0.056834368394435106, -0.44059927526774245])
 metphicorrs["2022EE"]["y"] = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0.06299345726816344, -0.3550646979517613])
+
+# 2023
+metphicorrs["2023"]["y"] = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0.056834368394435106, -0.44059927526774245])
+metphicorrs["2023BPix"]["y"] = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0.020103535533303542, -0.23468171647072067])
 
 for era in metphicorrs.keys():
     metphicorrs[era]["xy"] = [

@@ -40,6 +40,10 @@ metphicorr_x_2022G = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-
 metphicorr_x_2022 = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.020755388139112603, 0.09602720598467179])
 metphicorr_x_2022EE = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.008547638996897542, -0.04180418493345643])
 
+# 2023 pre/post BPix
+metphicorr_x_2023 = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0.025916718841803618, 0.2719390161051498])
+metphicorr_x_2023BPix = cs.FormulaRef(nodetype="formularef", index=0, parameters=[0.029765508865475607, 0.6523039628120135])
+
 ## y component parameters ##
 
 # 2016
@@ -76,6 +80,10 @@ metphicorr_y_2022G = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-
 # 2022 pre/post EE
 metphicorr_y_2022 = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.06124425023007369, -0.15273734966320585])
 metphicorr_y_2022EE = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.06366639418212494, 0.19149824570186502])
+
+# 2023 pre/post BPix
+metphicorr_x_2023 = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.03920521846665852, -0.26682358908185944])
+metphicorr_x_2023BPix = cs.FormulaRef(nodetype="formularef", index=0, parameters=[-0.0369834032094183, -0.3384932998966511])
 
 no_correction = cs.FormulaRef(nodetype="formularef", index=1, parameters=[1.0])
 
